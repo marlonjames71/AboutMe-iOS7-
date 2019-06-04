@@ -19,37 +19,46 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezs-XJ-3pv">
-                                <rect key="frame" x="20" y="85" width="50" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="20" y="85" width="53.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEf-6R-V3V">
-                                <rect key="frame" x="20" y="120" width="69" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="20" y="120" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpd-Oa-wVq">
-                                <rect key="frame" x="78" y="85" width="42" height="21"/>
+                                <rect key="frame" x="81.5" y="85.5" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBc-Qx-KIp">
-                                <rect key="frame" x="97" y="119" width="42" height="21"/>
+                                <rect key="frame" x="102" y="119" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A3w-hd-iLE">
+                                <rect key="frame" x="144.5" y="807" width="125" height="30"/>
+                                <state key="normal" title="Introduce Yourself"/>
+                                <connections>
+                                    <action selector="introduceSelfButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y46-ih-8rJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="A3w-hd-iLE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="75R-af-dDR"/>
                             <constraint firstItem="Ezs-XJ-3pv" firstAttribute="leading" secondItem="QEf-6R-V3V" secondAttribute="leading" id="8yc-Ee-V0h"/>
                             <constraint firstItem="iBc-Qx-KIp" firstAttribute="leading" secondItem="QEf-6R-V3V" secondAttribute="trailing" constant="8" symbolic="YES" id="Arc-W6-dGg"/>
                             <constraint firstItem="Ezs-XJ-3pv" firstAttribute="baseline" secondItem="jpd-Oa-wVq" secondAttribute="baseline" id="GZG-d1-PTf"/>
                             <constraint firstItem="jpd-Oa-wVq" firstAttribute="leading" secondItem="Ezs-XJ-3pv" secondAttribute="trailing" constant="8" symbolic="YES" id="GaM-Ti-cJe"/>
                             <constraint firstItem="Ezs-XJ-3pv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="41" id="K6L-kZ-teD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="A3w-hd-iLE" secondAttribute="bottom" constant="25" id="R3g-qA-rTf"/>
                             <constraint firstItem="iBc-Qx-KIp" firstAttribute="top" secondItem="jpd-Oa-wVq" secondAttribute="bottom" constant="13" id="XXF-L4-Mlx"/>
                             <constraint firstItem="Ezs-XJ-3pv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eAR-xZ-ZXr"/>
                             <constraint firstItem="QEf-6R-V3V" firstAttribute="top" secondItem="Ezs-XJ-3pv" secondAttribute="bottom" constant="14" id="z9f-6C-OF9"/>
