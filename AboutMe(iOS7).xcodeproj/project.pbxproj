@@ -22,6 +22,7 @@
 		37A1B7EB22A6CEE30049BD40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A1B7EE22A6CEE30049BD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37A1B7F022A6CEE30049BD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A1B7F622A6E4600049BD40 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 				37A1B7E822A6CEE20049BD40 /* Main.storyboard */,
 				37A1B7EB22A6CEE30049BD40 /* Assets.xcassets */,
 				37A1B7ED22A6CEE30049BD40 /* LaunchScreen.storyboard */,
+				37A1B7F622A6E4600049BD40 /* README.md */,
 				37A1B7F022A6CEE30049BD40 /* Info.plist */,
 			);
 			path = "AboutMe(iOS7)";
