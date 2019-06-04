@@ -39,6 +39,7 @@
 		37A1B7D822A6CEE20049BD40 = {
 			isa = PBXGroup;
 			children = (
+				37A1B7F622A6E4600049BD40 /* README.md */,
 				37A1B7E322A6CEE20049BD40 /* AboutMe(iOS7) */,
 				37A1B7E222A6CEE20049BD40 /* Products */,
 			);
@@ -60,7 +61,6 @@
 				37A1B7E822A6CEE20049BD40 /* Main.storyboard */,
 				37A1B7EB22A6CEE30049BD40 /* Assets.xcassets */,
 				37A1B7ED22A6CEE30049BD40 /* LaunchScreen.storyboard */,
-				37A1B7F622A6E4600049BD40 /* README.md */,
 				37A1B7F022A6CEE30049BD40 /* Info.plist */,
 			);
 			path = "AboutMe(iOS7)";
