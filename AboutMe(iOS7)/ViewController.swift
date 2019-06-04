@@ -8,13 +8,24 @@
 
 import UIKit
 
+
+
+
 class ViewController: UIViewController {
 
+	// MARK: - IBOutlets
+	@IBOutlet var nameLabel: UILabel!
+	@IBOutlet var hobbiesLabel: UILabel!
+	
+	
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		print("My name is Marlon Raskin")
+		nameLabel.text = "Marlon Raskin"
+		hobbiesLabel.text = "Music, Movies, Coding"
 	}
 
+	// MARK: - IBActions
 
 }
 
